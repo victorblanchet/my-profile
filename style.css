@@ -1,0 +1,137 @@
+body {
+  background: #2274A5;
+  font-weight: 400;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  color: #444f5a;
+  line-height: 1.4;
+  text-align: center;
+}
+
+
+h1 {
+  color: #FFBF00;
+  font-family: Futura;
+  font-weight: 550;
+  font-size: 38px;
+
+}
+h2 {
+  color:#FFBF00;
+  font-weight:500;
+  font-size:26px;
+}
+h3 {
+  color:#FFBF00;
+  font-weight:400;
+  font-size:20px;
+}
+h1,h2,h3 {
+  line-height: 1.5;
+  letter-spacing: normal;
+
+}
+a {
+  text-decoration: none;
+  color:red;
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+  transition: 0.3s ease;
+}
+a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+
+/* Class and Id Modifications*/
+.container {
+  width:700px;
+  margin: 10px auto;
+}
+
+.card-white {
+  background: white;
+  padding: 40px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+
+}
+
+.card-white:hover{
+    cursor:pointer;
+    transform: scale(1.03);
+    box-shadow: 4px 4px #444f5a;
+    transition: 0.3s all;
+}
+
+
+.img-circle {
+  border-radius: 50%;
+}
+.list-inline {
+  list-style:none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+
+.list-inline i {
+  font-size: 50px;
+  color: #444f5a;
+
+}
+
+.list-inline i:hover {
+  color: #ff9999;
+  transition: 0.5s ease;
+}
+
+.btn-grey {
+  background-color: #444f5a;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+
+.btn-grey:hover {
+  background-color: #ff9999;
+  color: white;
+}
+
+/*Design adjustments using ID (for 1% of the desingn)*/
+
+#introduction p {
+
+  margin-bottom: 40px;
+}
+
+
+
+/*Media Queries Code*/
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+
+}
+
+
+
